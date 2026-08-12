@@ -5,7 +5,7 @@ pipeline{
 
         stage('Checkout') {
             steps {
-                git branch: 'main' , url: '
+                git branch: 'main' , url: 'https://github.com/EVT98/terraform-vpc-ec2-alb.git'
             }
         }
         stage('init'){
